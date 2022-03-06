@@ -21,6 +21,7 @@ Open addon MariDB and switch to the settings tab.
 Copy this setting from here:
 
 <img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
+
 ```
 databases:
   - homeassistant
@@ -37,6 +38,7 @@ rights:
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
 ## 3. Kodi - Create file advancedsettings.xml in userdata folder
+
 ```
 <advancedsettings>
   <videodatabase>
@@ -57,13 +59,13 @@ If you are already using maridb with another database, leave it there and just a
 
 By default the file does not exist, you have to create it and copy the settings into it.
 
-**Windows: %AppData%\Kodi\userdata\advancedsettings.xml
+**Windows: %AppData%\Kodi\userdata\advancedsettings.xml**
 
 To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste this address. (adjust according to your IP)
 
-**LibreELEC: \\IP_adress\Userdata\advancedsettings.xml
+**LibreELEC: \\IP_adress\Userdata\advancedsettings.xml**
 
-**OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml
+**OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml**
 
 If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
 

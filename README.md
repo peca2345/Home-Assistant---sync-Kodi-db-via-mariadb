@@ -7,17 +7,18 @@ This allows you to resume watching on another TV where you left off.
 
 ## Steps:
 
-**1. install MariaDB addon in Home Assistant**
+**1. install MariaDB addon in Home Assistant:**
 
 Settings / addons, backup and supervisor / add-on store / find "MariaDB" and install it
 
-**2. MariaDB addon settings**
+**2. MariaDB addon settings:**
+
+<img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
 
 Open add-on MariaDB and switch to the settings tab.
 
 Copy this setting from here:
 
-<img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
 
 ```
 databases:
@@ -38,7 +39,7 @@ I recommend turning on the watchdog.
 
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
-**3. Kodi - Create file advancedsettings.xml in userdata folder**
+**3. Kodi - Create file advancedsettings.xml in userdata folder:**
 
 ```
 <advancedsettings>
@@ -56,7 +57,7 @@ If you are already using maridb with another database, leave it there and just a
 </advancedsettings>
 ```
 
-**Kodi folder location on different platform**
+**Kodi folder location on different platform:**
 
 By default the file does not exist, you have to create it and copy the settings into it.
 

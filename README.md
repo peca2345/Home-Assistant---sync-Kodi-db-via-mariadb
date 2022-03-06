@@ -2,10 +2,9 @@
 
 1. install MariaDB addon in Home Assistant
 
-<img align="right" src="https://github.com/peca2345/ESPHome-code-examples/blob/main/images/sensors/DA18B20.png?raw=true">
 
 **MariaDB addon settings**
-
+<img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
 ```
 databases:
   - homeassistant

@@ -75,20 +75,13 @@ If you use multiple profiles in Kodi, you must copy the advancedsettings.xml fil
 
 **Troubleshooting:**
 
-Enable logging Kodi and check log file %AppData%\Kodi\kodi.log
-
-In log find server ip adress and myvideos.
-
-If kodi has a problem with writing to the database then there is a problem with the permissions on the server.
-
-If you will use mariadb without Home Assistant (e.g. in docker) you have to set user permissions for writing to the database and allow access from the network. 
-
-Also don't forget to enable the exception in the firewall for port 3306! 
-
-If this is not set you will see in the Kodi log that it cannot connect/write to the MariaDB database.
-
-Do not manually create the database in MariaDB. 
-
-Kodi will create it itself if the MariaDB user has write permissions. 
+- Enable logging Kodi and check log file %AppData%\Kodi\kodi.log
+- In log find server ip adress and myvideos.
+- If kodi has a problem with writing to the database then there is a problem with the permissions on the server.
+- If you will use mariadb without Home Assistant (e.g. in docker) you have to set user permissions for writing to the database and allow access from the network. 
+- Also don't forget to enable the exception in the firewall for port 3306! 
+- If this is not set you will see in the Kodi log that it cannot connect/write to the MariaDB database.
+- Do not manually create the database in MariaDB. 
+- Kodi will create it itself if the MariaDB user has write permissions. 
 
 If you create it manually, Kodi will freeze on startup.

@@ -1,4 +1,4 @@
-# Home Assistant - sync Kodi watched database via MariaDB
+# Home Assistant - sync Kodi watched DB via MariaDB
 
 ## Description:
 Shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on.  

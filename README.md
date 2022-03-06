@@ -6,8 +6,8 @@
 - also works for streaming add-ons that do not use the kodi library
 
 **Warning:**
-- By changing the database you will lose the old database and start with an empty database.
-- I recommend making a backup of the database beforehand. (folder Userdata\Database)
+By changing the database you will lose the old database and start with an empty database.  
+I recommend making a backup of the database beforehand. (folder Userdata\Database)
 
 ## Steps:
 
@@ -19,8 +19,7 @@ Settings / addons, backup and supervisor / add-on store / find "MariaDB" and ins
 
 **2. MariaDB addon settings:**
 
-Open add-on MariaDB and switch to the settings tab.
-
+Open add-on MariaDB and switch to the settings tab.  
 Copy this setting from here:
 
 ```
@@ -41,8 +40,7 @@ rights:
 ```
 
 Now go back to the first tab and run the addon.  
-I recommend turning on the watchdog.
-
+I recommend turning on the watchdog.  
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
 **3. Kodi - Create file advancedsettings.xml in userdata folder:**
@@ -65,15 +63,13 @@ If you are already using maridb with another database, leave it there and just a
 
 **Kodi folder location on different platform:**
 
-By default the file does not exist, you have to create it and copy the settings into it.
-
+By default the file does not exist, you have to create it and copy the settings into it.  
 - Windows: %AppData%\Kodi\userdata\advancedsettings.xml
 - LibreELEC: \\IP_adress\Userdata\advancedsettings.xml
 - OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml
 
-To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste address.
-If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
-
+To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste address.  
+If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.  
 - \Userdata\profiles\ **username** \advancedsettings.xml
 
 ## Troubleshooting:

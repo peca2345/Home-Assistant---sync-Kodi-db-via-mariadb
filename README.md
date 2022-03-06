@@ -10,11 +10,11 @@ This allows you to resume watching on another TV where you left off.
 2. copy the MariaDB add-on settings
 3. create file advancedsettings.xml on all Kodi devices (userdata folder)
 
-## 1. install MariaDB addon in Home Assistant
+**1. install MariaDB addon in Home Assistant**
 
 Settings / addons, backup and supervisor / add-on store / find "MariaDB" and install it
 
-## 2. MariaDB addon settings
+**2. MariaDB addon settings**
 
 Open addon MariDB and switch to the settings tab.
 
@@ -37,7 +37,7 @@ rights:
 
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
-## 3. Kodi - Create file advancedsettings.xml in userdata folder
+**3. Kodi - Create file advancedsettings.xml in userdata folder**
 
 ```
 <advancedsettings>
@@ -55,17 +55,17 @@ If you are already using maridb with another database, leave it there and just a
 </advancedsettings>
 ```
 
-## advancedsettings.xml file location on different platform
+**advancedsettings.xml file location on different platform**
 
 By default the file does not exist, you have to create it and copy the settings into it.
 
-**Windows: %AppData%\Kodi\userdata\advancedsettings.xml**
+Windows: %AppData%\Kodi\userdata\advancedsettings.xml
 
 To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste this address. (adjust according to your IP)
 
-**LibreELEC: \\IP_adress\Userdata\advancedsettings.xml**
+LibreELEC: \\IP_adress\Userdata\advancedsettings.xml
 
-**OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml**
+OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml
 
 If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
 

@@ -1,16 +1,12 @@
 # Home-Assistant - sync Kodi db via MariaDB
 
 ## Description:
-
-How to create a shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on.
-
-The markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV.
+- How to create a shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on.
+- The markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV.
 
 **Warning:**
-
-By changing the database you will lose the old database and start with an empty database.
-
-I recommend making a backup of the database beforehand. (folder Userdata\Database)
+- By changing the database you will lose the old database and start with an empty database.
+- I recommend making a backup of the database beforehand. (folder Userdata\Database)
 
 ## Steps:
 

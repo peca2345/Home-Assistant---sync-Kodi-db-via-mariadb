@@ -83,5 +83,4 @@ If you use multiple profiles in Kodi, you must copy the advancedsettings.xml fil
 - If this is not set you will see in the Kodi log that it cannot connect/write to the MariaDB database.
 - Do not manually create the database in MariaDB. 
 - Kodi will create it itself if the MariaDB user has write permissions. 
-
-If you create it manually, Kodi will freeze on startup.
+- If you create it manually, Kodi will freeze on startup.

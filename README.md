@@ -5,6 +5,12 @@
 This tutorial describes how to create a shared database of watched videos between multiple Kodi installations on home assistant via the MariaDB addon.
 This allows you to resume watching on another TV where you left off.
 
+**Warning:**
+
+By changing the database you will lose the old database and start with an empty database.
+
+I recommend making a backup of the database beforehand. (folder Userdata\Database)
+
 ## Steps:
 
 **1. install MariaDB addon in Home Assistant:**
@@ -68,3 +74,9 @@ To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R o
 If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
 
 - \Userdata\profiles\username\advancedsettings.xml
+
+**Troubleshooting:**
+Enable logging Kodi and check log file %AppData%\Kodi\kodi.log
+In log find server ip adress and myvideos.
+If kodi has a problem with writing to the database then there is a problem with the permissions on the server.
+

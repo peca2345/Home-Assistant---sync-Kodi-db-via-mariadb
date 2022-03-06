@@ -39,8 +39,7 @@ rights:
     grant: ALL PRIVILEGES ON
 ```
 
-Now go back to the first tab and run the addon.  
-I recommend turning on the watchdog.  
+Now go back to the first tab and run the addon. I recommend turning on the watchdog.  
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
 **3. Kodi - Create file advancedsettings.xml in userdata folder:**

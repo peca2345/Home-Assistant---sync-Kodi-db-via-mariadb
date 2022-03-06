@@ -27,17 +27,20 @@ Copy this setting from here:
 databases:
   - homeassistant
 logins:
+  - username: homeassistant
+    password: homeassistant
   - username: kodi
     password: kodi
     host: '%'
 rights:
+  - username: homeassistant
+    database: homeassistant
   - username: kodi
     database: MyVideos119
     grant: ALL PRIVILEGES ON
 ```
 
-Now go back to the first tab and run the addon.
-
+Now go back to the first tab and run the addon.  
 I recommend turning on the watchdog.
 
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.

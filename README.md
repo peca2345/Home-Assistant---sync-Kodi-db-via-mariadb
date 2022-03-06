@@ -2,7 +2,7 @@
 
 ## Description:
 
-This tutorial describes how to create a shared database of watched videos between multiple Kodi installations on home assistant via the MariaDB addon.
+How to create a shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on.
 
 The markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV.
 

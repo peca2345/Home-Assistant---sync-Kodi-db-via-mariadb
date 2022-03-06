@@ -6,9 +6,6 @@ This tutorial describes how to create a shared database of watched videos betwee
 This allows you to resume watching on another TV where you left off.
 
 ## Steps:
-1. install MariaDB addon in Home Assistant
-2. copy the MariaDB add-on settings
-3. create file advancedsettings.xml on all Kodi devices (userdata folder)
 
 **1. install MariaDB addon in Home Assistant**
 
@@ -16,7 +13,7 @@ Settings / addons, backup and supervisor / add-on store / find "MariaDB" and ins
 
 **2. MariaDB addon settings**
 
-Open addon MariDB and switch to the settings tab.
+Open add-on MariaDB and switch to the settings tab.
 
 Copy this setting from here:
 
@@ -34,6 +31,10 @@ rights:
     database: MyVideos119
     grant: ALL PRIVILEGES ON
 ```
+
+Now go back to the first tab and run the addon.
+
+I recommend turning on the watchdog.
 
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 

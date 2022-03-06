@@ -5,7 +5,7 @@
 - the markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV
 - also works for streaming add-ons that do not use the kodi library
 
-**Warning:**
+**Warning:**  
 By changing the database you will lose the old database and start with an empty database.  
 I recommend making a backup of the database beforehand. (folder Userdata\Database)
 

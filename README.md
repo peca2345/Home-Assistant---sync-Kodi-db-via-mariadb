@@ -37,3 +37,6 @@ Kodi - Create file advancedsettings.xml in userdata folder
   </videolibrary>
 </advancedsettings>
 ```
+
+Windows: %AppData%\Kodi\userdata\advancedsettings.xml
+LibreELEC: \\IP_adress\Userdata\advancedsettings.xml

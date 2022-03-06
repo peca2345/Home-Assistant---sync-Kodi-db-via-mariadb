@@ -1,9 +1,9 @@
 # Home Assistant - sync Kodi watched database via MariaDB
 
 ## Description:
-- shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on
-- the markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV
-- also works for streaming add-ons that do not use the kodi library
+Shared database of watched videos between multiple Kodi installations on Home Assistant using the MariaDB add-on.  
+The markings of the videos you've watched are synchronised and you can resume watching the stopped video on another TV.  
+Also works for streaming add-ons that do not use the kodi library.  
 
 **Warning:**  
 By changing the database you will lose the old database and start with an empty database.  

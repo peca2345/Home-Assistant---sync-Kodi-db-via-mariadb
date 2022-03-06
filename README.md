@@ -10,15 +10,14 @@ On Open/LibreELEC you must disable the "wait for network" function in the ELEC s
 By changing the database you will lose the old database and start with an empty database.  
 I recommend making a backup of the database beforehand. (folder Userdata\Database)
 
-## Steps:
 
-**1. install MariaDB addon in Home Assistant:**
+## 1. install MariaDB addon in Home Assistant:
 
 Settings / addons, backup and supervisor / add-on store / find "MariaDB" and install it
 
 <img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
 
-**2. MariaDB addon settings:**
+## 2. MariaDB addon settings:
 
 Open add-on MariaDB and switch to the settings tab.  
 Copy this setting from here:
@@ -43,7 +42,7 @@ rights:
 Now go back to the first tab and run the addon. I recommend turning on the watchdog.  
 If you are already using maridb with another database, leave it there and just add a new user and user permissions.
 
-**3. Kodi - Create file advancedsettings.xml in userdata folder:**
+## 3. Kodi - Create file advancedsettings.xml in userdata folder:
 
 **On Open/LibreELEC you must disable the "wait for network" function in the ELEC settings**
 
@@ -70,6 +69,7 @@ If you are already using maridb with another database, leave it there and just a
   <ignoresecondsatstart> 180 </ignoresecondsatstart> 
 </video>
 ```
+
 **Kodi folder location on different platform:**
 
 By default the file does not exist, you have to create it and copy the settings into it.  

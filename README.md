@@ -61,12 +61,10 @@ If you are already using maridb with another database, leave it there and just a
 By default the file does not exist, you have to create it and copy the settings into it.
 
 - Windows: %AppData%\Kodi\userdata\advancedsettings.xml
-
-To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste this address. (adjust according to your IP)
-
 - LibreELEC: \\IP_adress\Userdata\advancedsettings.xml
 - OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml
 
+To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste address.
 If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
 
 - \Userdata\profiles\username\advancedsettings.xml

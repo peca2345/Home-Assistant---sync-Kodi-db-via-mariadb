@@ -1,9 +1,14 @@
 # Home-Assistant - sync Kodi db via MariaDB
 
+This tutorial describes how to create a shared database of watched videos between multiple Kodi installations on home assistant via the MariaDB addon.
+This allows you to resume watching on another TV where you left off.
+
+Steps:
 1. install MariaDB addon in Home Assistant
+2. copy the MariaDB add-on settings
+3. create file advancedsettings.xml in all Kodi (userdata folder)
 
-
-**MariaDB addon settings**
+**2. MariaDB addon settings**
 <img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
 ```
 databases:
@@ -17,10 +22,10 @@ rights:
     database: MyVideos119
     grant: ALL PRIVILEGES ON
 ```
-Don't forget to configure port 3306 in the addon settings
 
 
-Kodi - Create file advancedsettings.xml in userdata folder
+
+**3. Kodi - Create file advancedsettings.xml in userdata folder**
 ```
 <advancedsettings>
   <videodatabase>
@@ -37,5 +42,18 @@ Kodi - Create file advancedsettings.xml in userdata folder
 </advancedsettings>
 ```
 
+**advancedsettings.xml file location on different platform**
+
+By default the file does not exist, you have to create it and copy the settings into it.
+
 Windows: %AppData%\Kodi\userdata\advancedsettings.xml
+
+To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste this address. (adjust according to your IP)
+
 LibreELEC: \\IP_adress\Userdata\advancedsettings.xml
+
+OpenELEC: \\IP_adress\\Userdata\advancedsettings.xml
+
+If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
+
+\Userdata\profiles\username\advancedsettings.xml

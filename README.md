@@ -11,14 +11,13 @@ This allows you to resume watching on another TV where you left off.
 
 Settings / addons, backup and supervisor / add-on store / find "MariaDB" and install it
 
-**2. MariaDB addon settings:**
-
 <img align="right" src="https://github.com/peca2345/Home-Assistant---sync-Kodi-db-via-mariadb/blob/main/IMG/mariadb_settings.png?raw=true">
+
+**2. MariaDB addon settings:**
 
 Open add-on MariaDB and switch to the settings tab.
 
 Copy this setting from here:
-
 
 ```
 databases:

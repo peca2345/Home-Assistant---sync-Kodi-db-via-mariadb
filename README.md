@@ -73,7 +73,7 @@ If you use multiple profiles in Kodi, you must copy the advancedsettings.xml fil
 
 - \Userdata\profiles\username\advancedsettings.xml
 
-**Troubleshooting:**
+## Troubleshooting:
 
 - Enable logging Kodi and check log file %AppData%\Kodi\kodi.log
 - In log find server ip adress and myvideos.

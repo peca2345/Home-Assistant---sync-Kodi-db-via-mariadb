@@ -6,6 +6,7 @@ The markings of the videos you've watched are synchronised and you can resume wa
 Also works for streaming add-ons that do not use the kodi library.  
 
 **Warning:**  
+On Open/LibreELEC you must disable the "wait for network" function in the ELEC settings.  
 By changing the database you will lose the old database and start with an empty database.  
 I recommend making a backup of the database beforehand. (folder Userdata\Database)
 
@@ -44,6 +45,8 @@ If you are already using maridb with another database, leave it there and just a
 
 **3. Kodi - Create file advancedsettings.xml in userdata folder:**
 
+**On Open/LibreELEC you must disable the "wait for network" function in the ELEC settings**
+
 ```
 <advancedsettings>
   <videodatabase>
@@ -60,6 +63,13 @@ If you are already using maridb with another database, leave it there and just a
 </advancedsettings>
 ```
 
+**Optional settings for advancedsettings.xml**
+
+```
+<video>
+  <ignoresecondsatstart> 180 </ignoresecondsatstart> 
+</video>
+```
 **Kodi folder location on different platform:**
 
 By default the file does not exist, you have to create it and copy the settings into it.  
@@ -73,6 +83,7 @@ If you use multiple profiles in Kodi, you must copy the advancedsettings.xml fil
 
 ## Troubleshooting:
 
+- On Open/LibreELEC you must disable the "wait for network" function in the ELEC settings
 - Enable logging Kodi and check log file %AppData%\Kodi\kodi.log
 - In log find server ip adress and myvideos.
 - If kodi has a problem with writing to the database then there is a problem with the permissions on the server.

@@ -71,7 +71,7 @@ By default the file does not exist, you have to create it and copy the settings 
 To access Kodi folders from PC to Libre/OpenELEC, enable samba and press Win+R on PC and paste address.
 If you use multiple profiles in Kodi, you must copy the advancedsettings.xml file to each profile.
 
-- \Userdata\profiles\username\advancedsettings.xml
+- \Userdata\profiles\ **username**\advancedsettings.xml
 
 ## Troubleshooting:
 
